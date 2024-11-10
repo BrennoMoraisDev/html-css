@@ -24,3 +24,48 @@ body{
     padding: 10px;
     
 }
+#areaPrincipal{
+    background-color: white;
+    width: 920px;
+    margin: 0 auto;
+}
+#areaPostagens{
+    background-color: white;
+    width: 640px;
+    float: left;
+}
+
+#areaLateral{
+    background-color: white;
+    width: 240px;
+    float: right;
+}
+footer{
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+/*for matacao do menu*/
+
+a{
+    text-decoration: none;
+}
+a:visited, a:link{
+    color:#FFF ;
+    padding: 8px 12px;
+}
+a:hover{
+    color: #f4b600;
+    background-color: #FFF;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+/*definindo classe para ser ussada em outros lugares*/
+.branco{
+    color: white;
+}
